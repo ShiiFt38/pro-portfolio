@@ -10,8 +10,8 @@ export function TabsDemo() {
       title: "Design",
       value: "design",
       content: (
-        <div className="w-full relative min-h-92 rounded-2xl px-2 text-xl md:text-4xl font-bold">
-          <h2 className='sm:hidden md:flex'>Design Projects</h2>
+        <div className="w-full relative min-h-92 rounded-2xl px-2 font-bold">
+          <h2 className='sm:hidden md:flex text-xl md:text-4xl'>Design Projects</h2>
           <Projects category="Design"/>
         </div>
       ),
@@ -20,8 +20,8 @@ export function TabsDemo() {
       title: "Web Dev",
       value: "web development",
       content: (
-        <div className="w-full relative min-h-92 rounded-2xl px-2 text-xl md:text-4xl font-bold ">
-          <h2 className='sm:hidden md:flex'>Web Development Projects</h2>
+        <div className="w-full relative min-h-92 rounded-2xl px-2 font-bold ">
+          <h2 className='sm:hidden md:flex text-xl md:text-4xl'>Web Development Projects</h2>
           <Projects category="Web"/>
         </div>
       ),
@@ -30,8 +30,8 @@ export function TabsDemo() {
       title: "Database",
       value: "database",
       content: (
-        <div className="w-full relative min-h-92 rounded-2xl px-2 text-xl md:text-4xl font-bold">
-          <h2 className='sm:hidden md:flex'>Database Projects</h2>
+        <div className="w-full relative min-h-92 rounded-2xl px-2 font-bold">
+          <h2 className='sm:hidden md:flex text-xl md:text-4xl'>Database Projects</h2>
           <Projects category="Data"/>
         </div>
       ),
@@ -40,8 +40,8 @@ export function TabsDemo() {
       title: "Misc",
       value: "miscellaneous",
       content: (
-        <div className="w-full relative min-h-92 rounded-2xl px-2 text-xl md:text-4xl font-bold text-black">
-          <h2 className='sm:hidden md:flex'>Miscellaneous Projects</h2>
+        <div className="w-full relative min-h-92 rounded-2xl px-2 font-bold text-black">
+          <h2 className='sm:hidden md:flex text-xl md:text-4xl'>Miscellaneous Projects</h2>
           <Projects category="Misc"/>
         </div>
       ),

@@ -5,7 +5,9 @@ import Certificates from "../myComponents/CertificatesData.js"
 import { Link } from "react-router-dom";
 import Footer from "../myComponents/Footer.js";
 import { HoverBorderGradient } from "../ui/hover-border-gradient.tsx";
-import CV from "../../assets/Tshepo Maseeme - CV.pdf"
+import CV from "../../assets/Tshepo Maseeme - CV.pdf";
+import Profile from "../../assets/IMG_20220207_162513.png";
+import Linkedin from "../../assets/linkedin.png"
 
 export function TracingBeamDemo() {
   return (
@@ -14,11 +16,13 @@ export function TracingBeamDemo() {
       <section className="flex flex-col justify-center sm:px-6 md:px-24">
             <div className="h-64 grid grid-cols-8 p-4 w-full">
               <div className="col-start-1 col-span-3 flex w-full justify-end">
-                <div className="bg-gray-300 my-auto h-32 w-32 hidden rounded-full"></div>
+                <div className="my-auto h-52 w-52 overflow-hidden rounded-full">
+                  <img className="w-full h-full object-cover" src={Profile} alt="" />
+                </div>
               </div>
               <div className="col-start-4 col-span-5 flex flex-col md:text-base justify-between sm:text-sm pl-6 ">
-                <div className="h-[80%] text-center">
-                  <p className="m-auto">Hello World</p>
+                <div className="h-[80%] flex align-center text-center">
+                  <h3 className="m-auto md:text-base sm:text-sm">I'm a dedicated IT Diploma student at Belgium Campus <span className="sm:hidden md:inline"> with a passion for software engineering. I'm </span>always looking for opportunities to apply my technical skills <span className="sm:hidden md:inline">and contribute to innovative projects.</span></h3>
                 </div>
                 <a href={CV} target="_blank" className='justify-self-end justify-center flex mb-auto' download>
                   <HoverBorderGradient>

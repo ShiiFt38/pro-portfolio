@@ -5,7 +5,18 @@ import LemonSite from "../../assets/ProjectImages/WebDev/Coursera Capstone Deskt
 import Xlounge from "../../assets/ProjectImages/WebDev/Xlounge_blog_desktop 2.png";
 import Xpertgear from "../../assets/ProjectImages/WebDev/XpertGear Desktop-min.png";
 import Luckyshrub from "../../assets/ProjectImages/WebDev/Lucky Shrub Demo Site Desktop.png";
-import StudentSystem from "../../assets/ProjectImages/WebDev/Student System Tkinter.png"
+import StudentSystem from "../../assets/ProjectImages/WebDev/Student System Tkinter.png";
+import Task1 from "../../assets/ProjectImages/Database/Data Task 1.png"
+import Task1Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 1.pdf"
+import Task2 from "../../assets/ProjectImages/Database/Data Task 2.png"
+import Task2Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 2.pdf"
+import Task3 from "../../assets/ProjectImages/Database/Data Task 3.png"
+import Task3Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 3.pdf"
+import Task4 from "../../assets/ProjectImages/Database/Data Task 4.png"
+import Task4Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 4.pdf"
+
+
+
 
 const Projects = [
     {
@@ -79,7 +90,44 @@ const Projects = [
     link: "https://github.com/ShiiFt38/School-Management-System",
     category: "Miscellaneous",
     info: ["- Python | Tkinter | SQLite3 | Pyinstaller", "- Diploma in I.T Course (Belgium Campus)", "- I developed a database programmatically using python scripts", "- Implemented CRUD functions", "- Created a executable file for easy app execution"]
+},
+{
+    name: "'Global Financial Data' Report",
+    date: "20 October 2023",
+    image: Task1,
+    imageAlt: "Power BI report 1",
+    link: Task1Pdf,
+    category: "Database",
+    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global financial sample data"]
+},
+{
+    name: "'Damaged Vehicles Sample' Report",
+    date: "20 October 2023",
+    image: Task2,
+    imageAlt: "Power BI report 2",
+    link: Task2Pdf,
+    category: "Database",
+    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on damaged vehicles sample data"]
+},
+{
+    name: "'Global Country Teams' Report",
+    date: "20 October 2023",
+    image: Task3,
+    imageAlt: "Power BI report 3",
+    link: Task3Pdf,
+    category: "Database",
+    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on sample data about global country teams and wins"]
+},
+{
+    name: "'Global Events Data' Report",
+    date: "20 October 2023",
+    image: Task4,
+    imageAlt: "Power BI report 4",
+    link: Task4Pdf,
+    category: "Database",
+    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global events sample data"]
 }
+
 ];
 
 export default Projects
