@@ -11,7 +11,7 @@ export function TabsDemo() {
       value: "design",
       content: (
         <div className="w-full relative min-h-92 rounded-2xl px-2 text-xl md:text-4xl font-bold">
-          <p className='sm:hidden md:flex'>Design Projects</p>
+          <h2 className='sm:hidden md:flex'>Design Projects</h2>
           <Projects category="Design"/>
         </div>
       ),
@@ -21,7 +21,7 @@ export function TabsDemo() {
       value: "web development",
       content: (
         <div className="w-full relative min-h-92 rounded-2xl px-2 text-xl md:text-4xl font-bold ">
-          <p>Web Development</p>
+          <h2 className='sm:hidden md:flex'>Web Development Projects</h2>
           <Projects category="Web"/>
         </div>
       ),
@@ -31,7 +31,7 @@ export function TabsDemo() {
       value: "database",
       content: (
         <div className="w-full relative min-h-92 rounded-2xl px-2 text-xl md:text-4xl font-bold">
-          <p>Database Projects</p>
+          <h2 className='sm:hidden md:flex'>Database Projects</h2>
           <Projects category="Data"/>
         </div>
       ),
@@ -41,7 +41,7 @@ export function TabsDemo() {
       value: "miscellaneous",
       content: (
         <div className="w-full relative min-h-92 rounded-2xl px-2 text-xl md:text-4xl font-bold text-black">
-          <p>Miscellaneous Projects</p>
+          <h2 className='sm:hidden md:flex'>Miscellaneous Projects</h2>
           <Projects category="Misc"/>
         </div>
       ),

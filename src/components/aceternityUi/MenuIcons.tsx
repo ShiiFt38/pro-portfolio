@@ -30,28 +30,28 @@ const people = [
     designation: "My experience",
     image: Resume,
     path: "/Resume"
-  },
-  {
-    id: 3,
-    name: "Github",
-    designation: "Source code for projects",
-    image: Github,
-    path: "https://github.com/ShiiFt38"
-  },
-  {
-    id: 4,
-    name: "LinkedIn",
-    designation: "Contact Me",
-    image: LinkedIn,
-    path: "https://www.linkedin.com/in/tshepomaseemesean66235244"
-  },
-  {
-    id: 5,
-    name: "Contact",
-    designation: "Say Hello",
-    image: Contact,
-    path: "/Contact"
   }
+  // {
+  //   id: 3,
+  //   name: "Github",
+  //   designation: "Source code for projects",
+  //   image: Github,
+  //   path: "https://github.com/ShiiFt38"
+  // },
+  // {
+  //   id: 4,
+  //   name: "LinkedIn",
+  //   designation: "Contact Me",
+  //   image: LinkedIn,
+  //   path: "https://www.linkedin.com/in/tshepomaseemesean66235244"
+  //  },
+  // {
+  //   id: 5,
+  //   name: "Contact",
+  //   designation: "Say Hello",
+  //   image: Contact,
+  //   path: "/Contact"
+  // }
 ];
 
 export function AnimatedTooltipPreview() {

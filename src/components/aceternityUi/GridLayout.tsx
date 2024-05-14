@@ -30,7 +30,7 @@ export function WobbleCardDemo() {
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-        <span className="child-element group-hover:text-violet-700">Ex</span>tract, <span className="child-element group-hover:text-violet-700">Ex</span>plore and <span className="child-element group-hover:text-violet-700">Ex</span>press Data
+        <span className="child-element group-hover:text-violet-700">Extract</span>, <span className="child-element group-hover:text-violet-700">Explore</span> and <span className="child-element group-hover:text-violet-700">Express</span> Data
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
           After <span className="child-element group-hover:text-cyan-300">gathering</span> data, I <span className="child-element group-hover:text-cyan-300">transform</span> it to information and prepare it for <span className="child-element group-hover:text-cyan-300">visualisation</span>.

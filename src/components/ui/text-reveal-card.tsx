@@ -89,13 +89,13 @@ export const TextRevealCard = ({
                 }
           }
           transition={isMouseOver ? { duration: 0 } : { duration: 0.4 }}
-          className="absolute z-20 will-change-transform"
+          className="absolute bg-[#ffffff] z-20 will-change-transform"
         >
           <p
             style={{
               
             }}
-            className="text-center sm:text-[2rem] md:text-[3rem] py-10 font-bold text-black bg-clip-text text-transparent bg-gradient-to-b from-black to-neutral-300"
+            className="text-center sm:text-[2rem] md:text-[3rem] py-10 font-bold text-black bg-clip-text text-transparent bg-gradient-to-b from-black to-black"
           >
             {revealText}
           </p>
@@ -107,11 +107,11 @@ export const TextRevealCard = ({
             opacity: widthPercentage > 0 ? 1 : 0,
           }}
           transition={isMouseOver ? { duration: 0 } : { duration: 0.4 }}
-          className="h-40 w-[8px] bg-gradient-to-b from-transparent via-neutral-800 to-transparent absolute z-50 will-change-transform"
+          className="h-40 w-[8px] rounded-xl bg-black absolute z-50 will-change-transform"
         ></motion.div>
 
-        <div className=" overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white,transparent)]">
-          <p className="text-base sm:text-[3rem] py-10 font-bold bg-clip-text text-transparent ">
+        <div className=" overflow-hidden align-center m-auto text-center ">
+          <p className="text-base sm:text-[2rem] md:text-[3rem] font-bold py-10 bg-clip-text text-black ">
             {text}
           </p>
           <MemoizedStars />
@@ -129,7 +129,7 @@ export const TextRevealCardTitle = ({
   className?: string;
 }) => {
   return (
-    <h2 className={twMerge("text-white text-lg mb-2", className)}>
+    <h2 className={twMerge("text-black text-lg mb-2", className)}>
       {children}
     </h2>
   );
@@ -143,7 +143,7 @@ export const TextRevealCardDescription = ({
   className?: string;
 }) => {
   return (
-    <p className={twMerge("text-[#a9a9a9] text-sm", className)}>{children}</p>
+    <p className={twMerge("text-black text-sm", className)}>{children}</p>
   );
 };
 
@@ -171,8 +171,8 @@ const Stars = () => {
             position: "absolute",
             top: `${random() * 100}%`,
             left: `${random() * 100}%`,
-            width: `2px`,
-            height: `2px`,
+            width: `4px`,
+            height: `4px`,
             backgroundColor: "black",
             borderRadius: "50%",
             zIndex: 1,

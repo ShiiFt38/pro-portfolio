@@ -18,7 +18,7 @@ const Projects = [
     info: ["Figma", "Coursera UX Design Assignment"]
 },
 {
-    name: "'FinTrackR' Finance Tracking Website",
+    name: "'FinTrackR' SaaS",
     date: "20 Mar 2024",
     image: Fintrackr,
     imageAlt: "",
@@ -78,7 +78,7 @@ const Projects = [
     imageAlt: "",
     link: "https://github.com/ShiiFt38/School-Management-System",
     category: "Miscellaneous",
-    info: ["- Python | Tkinter | SQLite3 | Pyinstaller", "- Diploma in I.T Course (Belgium Campus)", "- I developed a database programmatically using python scripts", "- Implemented CRUD functions"]
+    info: ["- Python | Tkinter | SQLite3 | Pyinstaller", "- Diploma in I.T Course (Belgium Campus)", "- I developed a database programmatically using python scripts", "- Implemented CRUD functions", "- Created a executable file for easy app execution"]
 }
 ];
 

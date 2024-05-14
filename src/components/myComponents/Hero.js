@@ -18,8 +18,8 @@ function Hero() {
             <div className='relative font-bold w-full sm:h-92 md:h-64 flex flex-col my-16'>
                 <div className='absolute text-center w-full sm:hidden md:bottom-24 h-full md:flex flex-col bg-transparent'>
                     <h1 className='text-5xl sm:text-4xl md:text-8xl'>I</h1>
-                    <h1 className='text-3xl sm:text-4xl md:text-8xl'>DESIGN, DEVELOP AND</h1>
-                    <h1 className='text-5xl sm:text-4xl md:text-8xl'>DEPLOY</h1>
+                    <h1 className='text-3xl sm:text-4xl md:text-8xl'>ANALYSE, DESIGN AND</h1>
+                    <h1 className='text-5xl sm:text-4xl md:text-8xl'>DEVELOP</h1>
                 </div>
             </div>
         </section>
