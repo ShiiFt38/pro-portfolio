@@ -56,6 +56,11 @@ const Certificates = [
         date: "15 December 2023"
     },
     {
+        name: "Wireframes and Low-fidelity protoypes",
+        link: "https://www.coursera.org/account/accomplishments/verify/2PHGTR8DM6VR",
+        date: "3 January 2024"
+    },
+    {
         name: "Advanced React",
         link: "https://www.coursera.org/account/accomplishments/verify/RCDJ8KTAXSTU",
         date: "5 January 2024"
@@ -65,11 +70,6 @@ const Certificates = [
         link: "https://www.coursera.org/account/accomplishments/verify/N5LEUPXB8DLU",
         date: "7 January 2024"
     },
-    {
-        name: "Wireframes and Low-fidelity protoypes",
-        link: "https://www.coursera.org/account/accomplishments/verify/2PHGTR8DM6VR",
-        date: "3 January 2024"
-    }
 
 ];
 

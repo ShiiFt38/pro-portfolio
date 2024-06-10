@@ -1,15 +1,20 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { TracingBeam } from "../ui/tracing-beam.tsx";
 import Certificates from "../myComponents/CertificatesData.js"
 import { Link } from "react-router-dom";
 import Footer from "../myComponents/Footer.js";
 import { HoverBorderGradient } from "../ui/hover-border-gradient.tsx";
-import CV from "../../assets/Tshepo Maseeme - CV.pdf";
 import Profile from "../../assets/IMG_20220207_162513.png";
-import Linkedin from "../../assets/linkedin.png"
+import Linkedin from "../../assets/linkedin.png";
+import placeholderImg from "../../assets/download-min.png";
 
 export function TracingBeamDemo() {
+  const [loading, setLoading] = useState(true);
+
+  const handleImageLoaded = () => {
+    setLoading(false);
+  }
   return (
     <>
     <TracingBeam className="">
@@ -17,18 +22,26 @@ export function TracingBeamDemo() {
             <div className="h-64 grid grid-cols-8 p-4 w-full">
               <div className="col-start-1 col-span-3 flex w-full justify-end">
                 <div className="my-auto h-52 w-52 overflow-hidden rounded-full">
-                  <img className="w-full h-full object-cover" src={Profile} alt="" />
+                  {loading && <img className="w-full h-full object-cover" src={placeholderImg}/>}
+                  <img className="w-full h-full object-cover" src={Profile} alt="Profile" onLoad={handleImageLoaded} />
                 </div>
               </div>
               <div className="col-start-4 col-span-5 flex flex-col md:text-base justify-between sm:text-sm pl-6 ">
-                <div className="h-[80%] flex align-center text-center">
-                  <h3 className="m-auto md:text-base sm:text-sm">I'm a dedicated IT Diploma student at Belgium Campus <span className="sm:hidden md:inline"> with a passion for software engineering. I'm </span>always looking for opportunities to apply my technical skills <span className="sm:hidden md:inline">and contribute to innovative projects.</span></h3>
+                <div className="h-[80%] flex align-center text-left">
+                  <h3 className="m-auto md:text-base sm:text-sm">
+                    <ul className="flex flex-col justify-around font-bold place-content-evenly">
+                      <li className="font-bold my-1">066 235 2544</li>
+                      <li><Link to="mailto:maseemet0@gmail.com" className="font-bold my-1"> maseemet0@gmail.com</Link></li>
+                      <li><Link to="https://www.linkedin.com/in/tshepomaseemesean66235244" className=""><img src={Linkedin} alt="Linkedin" className='w-6 h-6 my-2'/></Link>
+                      </li>
+                    </ul>
+                  </h3>
                 </div>
-                <a href={CV} target="_blank" className='justify-self-end justify-center flex mb-auto' download>
+                <Link to="https://drive.google.com/file/d/1-DNNjCXqGsJThyF6fGDqF6cKM1-3YY9L/view?usp=sharing" target="_blank" className='justify-self-end justify-center flex mb-auto'>
                   <HoverBorderGradient>
                     <button className="w-full font-bold text-center rounded-xl">Download CV</button>
                   </HoverBorderGradient>
-                </a>
+                </Link>
               </div>
             </div>
 

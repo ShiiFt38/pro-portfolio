@@ -5,7 +5,7 @@ import LemonSite from "../../assets/ProjectImages/WebDev/Coursera Capstone Deskt
 import Xlounge from "../../assets/ProjectImages/WebDev/Xlounge_blog_desktop 2.png";
 import Xpertgear from "../../assets/ProjectImages/WebDev/XpertGear Desktop-min.png";
 import Luckyshrub from "../../assets/ProjectImages/WebDev/Lucky Shrub Demo Site Desktop.png";
-import StudentSystem from "../../assets/ProjectImages/WebDev/Student System Tkinter.png";
+import StudentSystem from "../../assets/ProjectImages/Misc/Student System Tkinter.png";
 import Task1 from "../../assets/ProjectImages/Database/Data Task 1.png"
 import Task1Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 1.pdf"
 import Task2 from "../../assets/ProjectImages/Database/Data Task 2.png"
@@ -14,11 +14,24 @@ import Task3 from "../../assets/ProjectImages/Database/Data Task 3.png"
 import Task3Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 3.pdf"
 import Task4 from "../../assets/ProjectImages/Database/Data Task 4.png"
 import Task4Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 4.pdf"
+import Kaizen from "../../assets/ProjectImages/Misc/Kaizen Calculcator.png"
+import StudentMng from "../../assets/ProjectImages/Misc/Student management.png"
+import Ytdownloader from "../../assets/ProjectImages/Misc/yt downloader.png"
+import ArngrenProto from "../../assets/ProjectImages/Design/Arngren prototype.png"
 
 
 
 
 const Projects = [
+    {
+        name: "Arngren Website Redesign",
+        date:"17 May 2024",
+        image: ArngrenProto,
+        imageAlt: "Arngren redesign",
+        link: "https://drive.google.com/file/d/1B4v9yc2e-I-i8P96dvWkP5YDRCtbGfrq/view?usp=sharing",
+        category: "Design",
+        info: ["- Figma", "- Diploma in I.T Course(Belgium Campus) assessment", "- Collaborated with a team member", "- I was responsible for the hi-fi design", "- I added animations and transitions on the wireframes"]
+    },
     {
     name: "Little Lemon Form",
     date: "7 Jan 2024",
@@ -32,7 +45,7 @@ const Projects = [
     name: "'FinTrackR' SaaS",
     date: "20 Mar 2024",
     image: Fintrackr,
-    imageAlt: "",
+    imageAlt: "Finance management saas",
     link: "https://fintrackr-personal-finance-tracker.netlify.app/",
     category: "Web Development",
     info: ["- React | Tailwind CSS | ChartJs", "- Financial tracking and management web application", "- Part of internship program at Zidio Development", "- Collaborated with 5 members", "- I contributed to design and was hugely involved in development"]
@@ -59,7 +72,7 @@ const Projects = [
     name: "'Xlounge' Blog Site",
     date: "23 Dec 2023",
     image: Xlounge,
-    imageAlt: "",
+    imageAlt: "Xlounge blog",
     link: "https://xlounge-blog.netlify.app/",
     category: "Web Development",
     info: ["- HTML | CSS | Eleventy.js | Nunjucks", "- Codementor.io Project", "- Configured static site generator 11ty"]
@@ -68,10 +81,10 @@ const Projects = [
     name: "'XpertGear' Shopify Store",
     date: "20 Jan 2024",
     image: Xpertgear,
-    imageAlt: "",
+    imageAlt: "Xpertgear store",
     link: "",
     category: "Web Development",
-    info: ["- Shopify", "- Personal Side Project", "- Configured payment gateway", "- Added products, pages and media", "- Designed logo", "- Optimised pages for search engines", "- Added policies"]
+    info: ["- Shopify | Canva", "- Personal Side Project", "- Configured payment gateway", "- Added products, pages and media", "- Designed logo", "Optimised images for performance","- Optimised pages for search engines", "- Added policies"]
 },
 {
     name: "'Lucky Shrub' Website",
@@ -83,8 +96,17 @@ const Projects = [
     info: ["- HTML | CSS | Javascript", "- Coursera web development fundamentals project","- Responsive design"]
 },
 {
+    name: "Youtube Downloader",
+    date: "21 May 2023",
+    image: Ytdownloader,
+    imageAlt: "Pytube Application",
+    link: "https://github.com/ShiiFt38/Youtube-Downloader",
+    category: "Miscellaneous",
+    info: ["- Python | Pytube | Custom Tkinter | Pyinstaller", "- Diploma in I.T Course (Belgium Campus) exercise", "- Original task was to build a downloader that works with a CLI interface", "- I made this a personal project and created a GUI", "- I included a functionality that enables the download options, audio or video", "- The app dynamically renders the youtube title after URL upload"]
+},
+{
     name: "Student Management System",
-    date: "20 Jan 2024",
+    date: "28 April 2024",
     image: StudentSystem,
     imageAlt: "",
     link: "https://github.com/ShiiFt38/School-Management-System",
@@ -93,7 +115,7 @@ const Projects = [
 },
 {
     name: "'Global Financial Data' Report",
-    date: "20 October 2023",
+    date: "31 October 2023",
     image: Task1,
     imageAlt: "Power BI report 1",
     link: Task1Pdf,
@@ -102,7 +124,7 @@ const Projects = [
 },
 {
     name: "'Damaged Vehicles Sample' Report",
-    date: "20 October 2023",
+    date: "1 November 2023",
     image: Task2,
     imageAlt: "Power BI report 2",
     link: Task2Pdf,
@@ -111,7 +133,7 @@ const Projects = [
 },
 {
     name: "'Global Country Teams' Report",
-    date: "20 October 2023",
+    date: "6 November 2023",
     image: Task3,
     imageAlt: "Power BI report 3",
     link: Task3Pdf,
@@ -120,12 +142,31 @@ const Projects = [
 },
 {
     name: "'Global Events Data' Report",
-    date: "20 October 2023",
+    date: "7 November 2023",
     image: Task4,
     imageAlt: "Power BI report 4",
     link: Task4Pdf,
     category: "Database",
     info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global events sample data"]
+},
+{
+    name: "KPI Calculator",
+    date: "7 June 2023",
+    image: Kaizen,
+    imageAlt: "Calculator",
+    link: "https://github.com/ShiiFt38/KAIZEN-Business-Calculator",
+    category: "Miscellaneous",
+    info: ["C# | .NET Framework", "Personal Project", "Calculator desktop application"]
+},
+{
+    name: "Student Management System",
+    date: "26 May 2023",
+    image: StudentMng,
+    imageAlt: "Management system",
+    link: "https://github.com/ShiiFt38/Student-Management-System-C-",
+    category: "Miscellaneous",
+    info: ["C# | .NET Framework | SQL | MS SQL Server", "Diploma in I.T Course (Belgium Campus)", "Worked with 2 team members","Implemented functional user login and signup system", "Incorporated CRUD functions", "Designed and developed database for the system"]
+
 }
 
 ];

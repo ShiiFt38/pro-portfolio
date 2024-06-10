@@ -6,8 +6,8 @@ export function TextRevealCardPreview() {
   return (
   
       <TextRevealCard
-        text="Software Engineer"
-        revealText="Trust Me..."
+        text="Software Developer"
+        revealText="Entry level..."
       >
       </TextRevealCard>
   );

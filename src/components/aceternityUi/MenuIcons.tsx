@@ -3,14 +3,14 @@ import React from "react";
 import { AnimatedTooltip } from "../ui/animated-tooltip.tsx";
 import Bag from "../../assets/bag.png";
 import Resume from "../../assets/resume.png";
-import Github from "../../assets/github.png";
-import LinkedIn from "../../assets/linkedin.png";
-import Contact from "../../assets/email.png";
+// import Github from "../../assets/github.png";
+// import LinkedIn from "../../assets/linkedin.png";
+// import Contact from "../../assets/email.png";
 import Home from "../../assets/home.png"
 
 const people = [
   {
-    id: 6,
+    id: 0,
     name: "Home",
     designation: "Explore the homepage",
     image:
@@ -26,7 +26,7 @@ const people = [
   },
   {
     id: 2,
-    name: "Resume",
+    name: "Resumé",
     designation: "My experience",
     image: Resume,
     path: "/Resume"

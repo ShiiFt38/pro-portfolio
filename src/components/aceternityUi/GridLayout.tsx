@@ -17,7 +17,7 @@ export function WobbleCardDemo() {
             From Quick <span className="child-element group-hover:text-violet-700">No-Code</span> Solutions to Complex <span className="child-element group-hover:text-violet-700">Programming</span>
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            I build eye <span className="child-element group-hover:text-cyan-300">catching</span> webs.
+            I Build Eye <span className="child-element group-hover:text-cyan-300">Catching</span> Webs.
           </p>
         </div>
         <img

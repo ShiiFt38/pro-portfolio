@@ -8,7 +8,7 @@ function Logo() {
           TSHEPO MASEEME
         </div>
         <div className="font-bold text-black text-xs">
-        <span className="text-cyan-300">SOFTWARE</span> <span className="text-violet-700">ENGINEER</span>
+        <span className="text-cyan-300">SOFTWARE</span> <span className="text-violet-700">DEVELOPER</span>
         </div>
   </Link>
   )
