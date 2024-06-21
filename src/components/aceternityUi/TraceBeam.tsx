@@ -22,7 +22,7 @@ export function TracingBeamDemo() {
             <div className="h-64 grid grid-cols-8 p-4 w-full">
               <div className="col-start-1 col-span-3 flex w-full justify-end">
                 <div className="my-auto h-52 w-52 overflow-hidden rounded-full">
-                  {loading && <img className="w-full h-full object-cover" src={placeholderImg}/>}
+                  {loading && <img className="w-full h-full object-cover" src={placeholderImg} alt="Placeholder"/>}
                   <img className="w-full h-full object-cover" src={Profile} alt="Profile" onLoad={handleImageLoaded} />
                 </div>
               </div>
