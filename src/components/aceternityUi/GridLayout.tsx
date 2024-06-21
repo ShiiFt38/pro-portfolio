@@ -3,7 +3,7 @@
 import React from "react";
 import { WobbleCard } from "../ui/wobble-card.tsx";
 import XpertGear from "../../assets/ProjectImages/WebDev/XpertGear Desktop-min.png";
-import LemonWireframe from "../../assets/ProjectImages/Design/little lemon hi-fi wireframe.png"
+import LemonWireframe from "../../assets/ProjectImages/Design/little lemon hi-fi wireframe.png";
 
 export function WobbleCardDemo() {
   return (
