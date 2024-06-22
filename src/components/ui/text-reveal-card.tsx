@@ -73,7 +73,7 @@ export const TextRevealCard = ({
     >
       {children}
 
-      <div className="h-40  relative flex items-center overflow-hidden">
+      <div className="h-40 mt-28 relative flex items-center overflow-hidden">
         <motion.div
           style={{
             width: "100%",
@@ -171,8 +171,8 @@ const Stars = () => {
             position: "absolute",
             top: `${random() * 100}%`,
             left: `${random() * 100}%`,
-            width: `4px`,
-            height: `4px`,
+            width: `2px`,
+            height: `2px`,
             backgroundColor: "black",
             borderRadius: "50%",
             zIndex: 1,

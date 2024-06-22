@@ -7,7 +7,7 @@ import Footer from "../myComponents/Footer.js";
 import { HoverBorderGradient } from "../ui/hover-border-gradient.tsx";
 import Profile from "../../assets/IMG_20220207_162513.png";
 import Linkedin from "../../assets/linkedin.png";
-import placeholderImg from "../../assets/download-min.png";
+import placeholderImg from "../../assets/loading.png";
 
 export function TracingBeamDemo() {
   const [loading, setLoading] = useState(true);
@@ -22,7 +22,7 @@ export function TracingBeamDemo() {
             <div className="h-64 grid grid-cols-8 p-4 w-full">
               <div className="col-start-1 col-span-3 flex w-full justify-end">
                 <div className="my-auto h-52 w-52 overflow-hidden rounded-full">
-                  {loading && <img className="w-full h-full object-cover" src={placeholderImg} alt="Placeholder"/>}
+                  {loading && <img className="m-auto animate-spin max-h-[4rem]" src={placeholderImg} alt="loading"/>}
                   <img className="w-full h-full object-cover" src={Profile} alt="Profile" onLoad={handleImageLoaded} />
                 </div>
               </div>
@@ -30,10 +30,10 @@ export function TracingBeamDemo() {
                 <div className="h-[80%] flex align-center text-left">
                   <h3 className="m-auto md:text-base sm:text-sm">
                     <ul className="flex flex-col justify-around font-bold place-content-evenly">
-                      <li className="font-bold my-1">066 235 2544</li>
+                      <li className="font-bold my-1 flex flex-row justify-between items-center w-full">066 235 2544 <Link to="https://www.linkedin.com/in/tshepomaseemesean66235244" className=""><img src={Linkedin} alt="Linkedin" className='w-6 h-6 my-2'/></Link></li>
                       <li><Link to="mailto:maseemet0@gmail.com" className="font-bold my-1"> maseemet0@gmail.com</Link></li>
-                      <li><Link to="https://www.linkedin.com/in/tshepomaseemesean66235244" className=""><img src={Linkedin} alt="Linkedin" className='w-6 h-6 my-2'/></Link>
-                      </li>
+                      {/* <li><Link to="https://www.linkedin.com/in/tshepomaseemesean66235244" className=""><img src={Linkedin} alt="Linkedin" className='w-6 h-6 my-2'/></Link>
+                      </li> */}
                     </ul>
                   </h3>
                 </div>
@@ -54,7 +54,7 @@ export function TracingBeamDemo() {
               </div>
               <div className='col-start-4 col-span-5 md:text-base sm:text-sm pl-6 border-l-2 border-black h-full text-left'>
                 <ul>
-                    <li>Internship at <Link to="https://zidio.in/" target="_blank" className='hover:text-violet-700'>Zidio Development<span className="material-symbols-outlined">arrow_outward</span>.</Link></li>
+                    <li>Internship at <Link to="https://zidio.in/" target="_blank" className='hover:text-violet-700'>Zidio Development ↗.</Link></li>
                     <li>One month collaboration with 5 team members.</li>
                     <li>I did the UI/UX design and developed the frontend interface for the web project.</li>
                     <li>I gained time management and collaboration skills</li>
@@ -87,7 +87,7 @@ export function TracingBeamDemo() {
                                 <p>{award.date}</p>
                             </div>
                             <div className='col-start-4 md:text-base sm:text-sm pl-6 col-span-5 h-fit border-l-2 border-black text-left'>
-                            <Link to={award.link} target="_blank" className='group-hover:text-violet-700'><p>{award.name} <span className="material-symbols-outlined">arrow_outward</span></p></Link>
+                            <Link to={award.link} target="_blank" className='group-hover:text-violet-700'><p>{award.name} ↗</p></Link>
                             </div>
                         </div>
               ))}
