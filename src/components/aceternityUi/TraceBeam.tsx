@@ -37,7 +37,7 @@ export function TracingBeamDemo() {
                     </ul>
                   </h3>
                 </div>
-                <Link to="https://drive.google.com/file/d/1-DNNjCXqGsJThyF6fGDqF6cKM1-3YY9L/view?usp=sharing" target="_blank" className='justify-self-end justify-center flex mb-auto'>
+                <Link to="https://drive.google.com/file/d/18BDdTuR7dHrcfgzGUHeTD55jiqPjwS-1/view" target="_blank" className='justify-self-end justify-center flex mb-auto'>
                   <HoverBorderGradient>
                     <button className="w-full font-bold text-center rounded-xl">Download CV</button>
                   </HoverBorderGradient>
