@@ -66,7 +66,7 @@ export const AnimatedTooltip = ({
                 rotate: rotate,
                 whiteSpace: "nowrap",
                 position: "absolute",
-                left: "-120px", // Adjust left position as per your requirement
+                left: "-120px", 
                 top: "50%", // Center vertically
               }}
               className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs  flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"

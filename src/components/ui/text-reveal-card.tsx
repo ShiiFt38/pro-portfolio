@@ -73,7 +73,7 @@ export const TextRevealCard = ({
     >
       {children}
 
-      <div className="h-40 mt-28 relative flex items-center overflow-hidden">
+      <div className="h-40 mt-28 mr-8 relative flex items-center overflow-hidden">
         <motion.div
           style={{
             width: "100%",
@@ -111,7 +111,7 @@ export const TextRevealCard = ({
         ></motion.div>
 
         <div className=" overflow-hidden align-center m-auto text-center ">
-          <p className="sm:text-3xl md:text-4xl lg:text-5xl font-bold py-10 bg-clip-text text-black ">
+          <p className="sm:text-3xl md:text-4xl lg:text-5xl font-bold py-10 bg-clip-text text-transparent bg-gradient-to-br from-black to-gray-600 ">
             {text}
           </p>
           <MemoizedStars />
@@ -129,7 +129,7 @@ export const TextRevealCardTitle = ({
   className?: string;
 }) => {
   return (
-    <h2 className={twMerge("text-black text-lg mb-2", className)}>
+    <h2 className={twMerge("bg-gradient-to-br from-black to-gray-600 text-lg mb-2", className)}>
       {children}
     </h2>
   );
