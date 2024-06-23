@@ -7,6 +7,7 @@ function SEO({title, description, name, type}) {
         {/* Standard meta tags */}
         <title>{title}</title>
         <meta name='description' content={description}/>
+        
 
         {/*Facebook tags*/}
         <meta property="og:type" content={type}/>
