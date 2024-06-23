@@ -29,7 +29,7 @@ const people = [
     name: "Resumé",
     designation: "My experience",
     image: Resume,
-    path: "/Resume"
+    path: "/Resumé"
   }
   // {
   //   id: 3,

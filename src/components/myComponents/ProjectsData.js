@@ -7,13 +7,9 @@ import Xpertgear from "../../assets/ProjectImages/WebDev/XpertGear Desktop-min.p
 import Luckyshrub from "../../assets/ProjectImages/WebDev/Lucky Shrub Demo Site Desktop.png";
 import StudentSystem from "../../assets/ProjectImages/Misc/Student System Tkinter.png";
 import Task1 from "../../assets/ProjectImages/Database/Data Task 1.png"
-import Task1Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 1.pdf"
 import Task2 from "../../assets/ProjectImages/Database/Data Task 2.png"
-import Task2Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 2.pdf"
 import Task3 from "../../assets/ProjectImages/Database/Data Task 3.png"
-import Task3Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 3.pdf"
 import Task4 from "../../assets/ProjectImages/Database/Data Task 4.png"
-import Task4Pdf from "../../assets/ProjectImages/Database/Tshepo Maseeme_Task 4.pdf"
 import Kaizen from "../../assets/ProjectImages/Misc/Kaizen Calculcator.png"
 import StudentMng from "../../assets/ProjectImages/Misc/Student management.png"
 import Ytdownloader from "../../assets/ProjectImages/Misc/yt downloader.png"
@@ -55,7 +51,7 @@ const Projects = [
     date: "5 Feb 2024",
     image: Handicraft,
     imageAlt: "",
-    link: "https://handicraftbykhanyi.online/",
+    link: "",
     category: "Web Development",
     info: ["- Shopify", "- Freelance Project", "- I integrated a payment feature", "- Customised theme colors and layout", "- Added products and pages", "- Did copywriting and search engine optimisation"]
 },
@@ -69,15 +65,6 @@ const Projects = [
     info: ["- React", "- Coursera Advanced React Capstone Project", "- Optimised for responsive design", "- Implemented dynamic controlled components for form validation"]
 },
 {
-    name: "'Xlounge' Blog Site",
-    date: "23 Dec 2023",
-    image: Xlounge,
-    imageAlt: "Xlounge blog",
-    link: "https://xlounge-blog.netlify.app/",
-    category: "Web Development",
-    info: ["- HTML | CSS | Eleventy.js | Nunjucks", "- Codementor.io Project", "- Configured static site generator 11ty"]
-},
-{
     name: "'XpertGear' Shopify Store",
     date: "20 Jan 2024",
     image: Xpertgear,
@@ -85,6 +72,15 @@ const Projects = [
     link: "",
     category: "Web Development",
     info: ["- Shopify | Canva", "- Personal Side Project", "- Configured payment gateway", "- Added products, pages and media", "- Designed logo", "Optimised images for performance","- Optimised pages for search engines", "- Added policies"]
+},
+{
+    name: "'Xlounge' Blog Site",
+    date: "23 Dec 2023",
+    image: Xlounge,
+    imageAlt: "Xlounge blog",
+    link: "https://xlounge-blog.netlify.app/",
+    category: "Web Development",
+    info: ["- HTML | CSS | Eleventy.js | Nunjucks", "- Codementor.io Project", "- Configured static site generator 11ty"]
 },
 {
     name: "'Lucky Shrub' Website",
@@ -114,40 +110,40 @@ const Projects = [
     info: ["- Python | Tkinter | SQLite3 | Pyinstaller", "- Diploma in I.T Course (Belgium Campus)", "- I developed a database programmatically using python scripts", "- Implemented CRUD functions", "- Created a executable file for easy app execution"]
 },
 {
-    name: "'Global Financial Data' Report",
-    date: "31 October 2023",
-    image: Task1,
-    imageAlt: "Power BI report 1",
-    link: Task1Pdf,
+    name: "'Global Events Data' Report",
+    date: "7 November 2023",
+    image: Task4,
+    imageAlt: "Power BI report 4",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiYjdkMjdkYzItYWMyZi00MmM5LTljNDMtN2M1Yjk0NzE3MjM0IiwidCI6ImVhMWE5MDliLTY2MDAtNGEyNS04MmE1LTBjNmVkN2QwNTEzYiIsImMiOjl9",
     category: "Database",
-    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global financial sample data"]
-},
-{
-    name: "'Damaged Vehicles Sample' Report",
-    date: "1 November 2023",
-    image: Task2,
-    imageAlt: "Power BI report 2",
-    link: Task2Pdf,
-    category: "Database",
-    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on damaged vehicles sample data"]
+    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global events sample data"]
 },
 {
     name: "'Global Country Teams' Report",
     date: "6 November 2023",
     image: Task3,
     imageAlt: "Power BI report 3",
-    link: Task3Pdf,
+    link: "https://app.powerbi.com/view?r=eyJrIjoiOTRlOGYxNDItYTM4MS00N2NhLWJkOGMtODgxZTUwM2U3MTQyIiwidCI6ImVhMWE5MDliLTY2MDAtNGEyNS04MmE1LTBjNmVkN2QwNTEzYiIsImMiOjl9",
     category: "Database",
     info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on sample data about global country teams and wins"]
 },
 {
-    name: "'Global Events Data' Report",
-    date: "7 November 2023",
-    image: Task4,
-    imageAlt: "Power BI report 4",
-    link: Task4Pdf,
+    name: "'Damaged Vehicles Sample' Report",
+    date: "1 November 2023",
+    image: Task2,
+    imageAlt: "Power BI report 2",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiYTdlODE0NDktNjgxOS00NWE1LWIwMTMtM2Q4NDdjYjQ5NTBmIiwidCI6ImVhMWE5MDliLTY2MDAtNGEyNS04MmE1LTBjNmVkN2QwNTEzYiIsImMiOjl9",
     category: "Database",
-    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global events sample data"]
+    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on damaged vehicles sample data"]
+},
+{
+    name: "'Global Financial Data' Report",
+    date: "31 October 2023",
+    image: Task1,
+    imageAlt: "Power BI report 1",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiYmY3MzRhNWYtOWZiMy00NTNkLTgyYmQtNDc2NGVlMDBhNWQ0IiwidCI6ImVhMWE5MDliLTY2MDAtNGEyNS04MmE1LTBjNmVkN2QwNTEzYiIsImMiOjl9",
+    category: "Database",
+    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global financial sample data"]
 },
 {
     name: "KPI Calculator",
