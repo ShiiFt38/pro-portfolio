@@ -8,7 +8,7 @@ import Resume from "../../assets/resume.png";
 // import Contact from "../../assets/email.png";
 import Home from "../../assets/home.png"
 
-const people = [
+const links = [
   {
     id: 0,
     name: "Home",
@@ -57,7 +57,7 @@ const people = [
 export function AnimatedTooltipPreview() {
   return (
     <div className="flex flex-row items-center justify-center mb-10 w-full">
-      <AnimatedTooltip items={people} />
+      <AnimatedTooltip items={links} />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export function HoverBorderGradientDemo() {
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
-        className="bg-black-500 font-bold text-white w-44 flex justify-center flex items-center space-x-2"
+        className="[background-image:radial-gradient(88%_100%_at_top,rgba(255,255,255,0.5),rgba(255,255,255,0))] font-bold text-white w-44 flex justify-center flex items-center space-x-2"
       >
         <span>Projects</span>
       </HoverBorderGradient>

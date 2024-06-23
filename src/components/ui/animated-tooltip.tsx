@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import {Link} from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 import {
   motion,
   useTransform,
@@ -70,24 +71,24 @@ export const AnimatedTooltip = ({
               }}
               className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs  flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
             >
-              <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
-              <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
+              <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-violet-700 to-transparent h-px " />
+              <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-cyan-300 to-transparent h-px " />
               <div className="font-bold text-white relative z-30 text-base">
                 {item.name}
               </div>
               <div className="text-white text-xs">{item.designation}</div>
             </motion.div>
           )}
-          <Link to={item.path}>
-          <img
-            onMouseMove={handleMouseMove}
-            height={100}
-            width={100}
-            src={item.image}
-            alt={item.name}
-            className="object-cover !m-0 !p-0 object-top rounded-full sm:h-6 sm:w-6 md:h-10 md:w-10 border-2 group-hover:scale-105 group-hover:z-30 relative transition duration-500"
-          />
-          </Link>
+          <HashLink smooth to={`${item.path}#header`}>
+            <img
+              onMouseMove={handleMouseMove}
+              height={100}
+              width={100}
+              src={item.image}
+              alt={item.name}
+              className="object-cover !m-0 !p-0 object-top rounded-full sm:h-8 sm:w-8 md:h-10 md:w-10 border-2 group-hover:scale-105 group-hover:z-30 relative transition duration-500"
+            />
+          </HashLink>
 
         </div>
       ))}
