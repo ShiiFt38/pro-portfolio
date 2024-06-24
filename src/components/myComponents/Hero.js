@@ -11,12 +11,12 @@ function Hero() {
                     <ThreeDCardDemo
                     image={Laptop} />
                 </div>
-                <div className='grid-col-7 sm:col-span-12 min-h-64 m-auto w-full md:col-span-6'>
+                <div className='grid-col-7 sm:col-span-12 min-h-64 sm:hidden md:flex m-auto w-full md:col-span-6'>
                     <TextRevealCardPreview/>
                 </div>
             </div>
             <div className='relative font-bold w-full sm:h-92 md:h-64 flex flex-col my-16'>
-                <div className='absolute text-center w-full sm:hidden md:bottom-24 h-full md:flex flex-col bg-transparent'>
+                <div className='md:absolute text-center w-full md:bottom-24 h-full flex flex-col bg-transparent'>
                     <h1 className='text-5xl sm:text-5xl lg:text-8xl'>I</h1>
                     <h1 className='text-3xl sm:text-5xl lg:text-8xl'>ANALYSE, DESIGN AND</h1>
                     <h1 className='text-5xl sm:text-5xl lg:text-8xl'>DEVELOP</h1>

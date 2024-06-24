@@ -77,6 +77,7 @@ export const TextRevealCard = ({
         <motion.div
           style={{
             width: "100%",
+            alignItems: "center"
           }}
           animate={
             isMouseOver
@@ -95,7 +96,7 @@ export const TextRevealCard = ({
             style={{
               
             }}
-            className="text-center sm:text-3xl md:text-4xl lg:text-5xl py-10 font-bold text-black bg-clip-text text-transparent bg-gradient-to-b from-black to-black"
+            className="text-center sm:text-base md:text-2xl lg:text-3xl xl:text-4xl py-10 font-bold text-black bg-clip-text text-transparent bg-gradient-to-b from-black to-black"
           >
             {revealText}
           </p>
@@ -111,7 +112,7 @@ export const TextRevealCard = ({
         ></motion.div>
 
         <div className=" overflow-hidden align-center m-auto text-center ">
-          <p className="sm:text-3xl md:text-4xl lg:text-5xl font-bold py-10 bg-clip-text text-transparent bg-gradient-to-br from-black to-gray-600 ">
+          <p className="sm:text-base md:text-2xl lg:text-3xl xl:text-4xl font-bold py-10 bg-clip-text text-transparent bg-gradient-to-br from-black to-gray-600 ">
             {text}
           </p>
           <MemoizedStars />

@@ -36,7 +36,7 @@ export function TracingBeamDemo() {
                           <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-violet-700 to-transparent h-px " />
                           <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-cyan-300 to-transparent h-px " />
                           <div className="font-bold text-white relative z-30 text-base">Phone:</div>
-                          <div className="text-white text-xs"><p>+27 66 235 2544</p></div>
+                          <div className="text-white text-xs"><p className="w-full">+27662352544</p></div>
                         </div>
                         <Link to="tel: +27 66 235 2544" className="child-element "><img src={phone} alt="Phone" className='sm:w-6 sm:h-6 md:w-10 md:h-10'/></Link>
                       </li>
