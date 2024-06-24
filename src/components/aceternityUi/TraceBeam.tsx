@@ -32,7 +32,7 @@ export function TracingBeamDemo() {
                 <div className="h-[80%] flex align-center">
                     <ul className="flex flex-row place-content-evenly w-full h-fit m-auto font-bold place-content-evenly">
                       <li className="relative group">
-                        <div className="absolute hidden group-hover:block child-element bottom-12 right-5 group-hover:translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-gradient-to-br from-black to-gray-600 z-50 shadow-xl px-4 py-2">
+                        <div className="absolute opacity-0 transition-opacity duration-600 ease-in-out group-hover:opacity-100 child-element bottom-12 right-5 flex text-xs flex-col items-center justify-center rounded-md bg-gradient-to-br from-black to-gray-600 z-50 shadow-xl px-4 py-2">
                           <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-violet-700 to-transparent h-px " />
                           <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-cyan-300 to-transparent h-px " />
                           <div className="font-bold text-white relative z-30 text-base">Phone:</div>
@@ -41,7 +41,7 @@ export function TracingBeamDemo() {
                         <Link to="tel: +27 66 235 2544" className="child-element "><img src={phone} alt="Phone" className='sm:w-6 sm:h-6 md:w-10 md:h-10'/></Link>
                       </li>
                         <li className="relative group">
-                        <div className="absolute hidden group-hover:block child-element bottom-12  right-5 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-gradient-to-br from-black to-gray-600 z-50 shadow-xl px-4 py-2">
+                        <div className="absolute opacity-0 transition-opacity duration-600 ease-in-out group-hover:opacity-100 child-element bottom-12 right-5 flex text-xs flex-col items-center justify-center rounded-md bg-gradient-to-br from-black to-gray-600 z-50 shadow-xl px-4 py-2">
                           <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-violet-700 to-transparent h-px " />
                           <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-cyan-300 to-transparent h-px " />
                           <div className="font-bold text-white relative z-30 text-base">LinkedIn:</div>
@@ -50,7 +50,7 @@ export function TracingBeamDemo() {
                         <Link to="https://www.linkedin.com/in/tshepomaseemesean66235244" className=""><img src={Linkedin} alt="Linkedin" className='sm:w-6 sm:h-6 md:w-10 md:h-10'/></Link>
                       </li>
                       <li className="relative group">
-                      <div className="absolute hidden group-hover:block child-element bottom-12  right-5 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-gradient-to-br from-black to-gray-600 z-50 shadow-xl px-4 py-2">
+                      <div className="absolute opacity-0 transition-opacity duration-600 ease-in-out group-hover:opacity-100 child-element bottom-12 right-5 flex text-xs flex-col items-center justify-center rounded-md bg-gradient-to-br from-black to-gray-600 z-50 shadow-xl px-4 py-2">
                           <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-violet-700 to-transparent h-px " />
                           <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-cyan-300 to-transparent h-px " />
                           <div className="font-bold text-white relative z-30 text-base">Email:</div>

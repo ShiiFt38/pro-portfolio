@@ -120,7 +120,7 @@ const miscProjects = projects.filter((project) => project.category === "Miscella
                     containerClassName="rounded-full"
                     as="button"
                     className="bg-black-500 font-bold text-white w-44 flex justify-center flex items-center space-x-2">
-                        View Code</HoverBorderGradient>
+                        View</HoverBorderGradient>
                         </Link> : null}
         </div>
         <div id="info" className='h-full col-start-2 w-full sm:hidden md:flex text-center justify-self-end items-center'>

@@ -14,6 +14,7 @@ import Kaizen from "../../assets/ProjectImages/Misc/Kaizen Calculcator.png"
 import StudentMng from "../../assets/ProjectImages/Misc/Student management.png"
 import Ytdownloader from "../../assets/ProjectImages/Misc/yt downloader.png"
 import ArngrenProto from "../../assets/ProjectImages/Design/Arngren prototype.png"
+import meme from "../../assets/ProjectImages/Misc/meme-generator.png"
 
 
 
@@ -90,6 +91,15 @@ const Projects = [
     link: "https://shiift38.github.io/Lucky-Shrub-Site/",
     category: "Web Development",
     info: ["- HTML | CSS | Javascript", "- Coursera web development fundamentals project","- Responsive design"]
+},
+{
+    name: "Meme Generator",
+    date: "28 May 2024",
+    image: meme,
+    imageAlt: "Meme generator",
+    link: "https://meme-generator-reactwebapp.netlify.app/",
+    category: "Miscellaneous",
+    info: ["- React", "- Scrimba React.js project ", "- I utilised an API to fetch images to display", "- I programmed a react hook to render already-styled text dynamically"]
 },
 {
     name: "Youtube Downloader",
