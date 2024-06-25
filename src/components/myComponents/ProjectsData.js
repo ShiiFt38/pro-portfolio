@@ -36,7 +36,7 @@ const Projects = [
     imageAlt: "Little Lemon Site Wireframes",
     link: "https://docs.google.com/document/d/e/2PACX-1vSbJtfiBzyx5IKTv9MLM35-KtQ8_ydD8meCGzazmXietQxRO85xl6WGPV28uEC03qNv2EdkGkHjLjJc/pub",
     category: "Design",
-    info: ["Figma", "Coursera UX Design Assignment"]
+    info: ["- Figma", "- Coursera UX Design Assignment"]
 },
 {
     name: "'FinTrackR' SaaS",
@@ -126,7 +126,7 @@ const Projects = [
     imageAlt: "Power BI report 4",
     link: "https://app.powerbi.com/view?r=eyJrIjoiYjdkMjdkYzItYWMyZi00MmM5LTljNDMtN2M1Yjk0NzE3MjM0IiwidCI6ImVhMWE5MDliLTY2MDAtNGEyNS04MmE1LTBjNmVkN2QwNTEzYiIsImMiOjl9",
     category: "Database",
-    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global events sample data"]
+    info: ["- Microsoft Power BI", "- Diploma in I.T Course (Belgium Campus)", "- Report on global events sample data"]
 },
 {
     name: "'Global Country Teams' Report",
@@ -135,7 +135,7 @@ const Projects = [
     imageAlt: "Power BI report 3",
     link: "https://app.powerbi.com/view?r=eyJrIjoiOTRlOGYxNDItYTM4MS00N2NhLWJkOGMtODgxZTUwM2U3MTQyIiwidCI6ImVhMWE5MDliLTY2MDAtNGEyNS04MmE1LTBjNmVkN2QwNTEzYiIsImMiOjl9",
     category: "Database",
-    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on sample data about global country teams and wins"]
+    info: ["- Microsoft Power BI", "- Diploma in I.T Course (Belgium Campus)", "- Report on sample data about global country teams and wins"]
 },
 {
     name: "'Damaged Vehicles Sample' Report",
@@ -144,7 +144,7 @@ const Projects = [
     imageAlt: "Power BI report 2",
     link: "https://app.powerbi.com/view?r=eyJrIjoiYTdlODE0NDktNjgxOS00NWE1LWIwMTMtM2Q4NDdjYjQ5NTBmIiwidCI6ImVhMWE5MDliLTY2MDAtNGEyNS04MmE1LTBjNmVkN2QwNTEzYiIsImMiOjl9",
     category: "Database",
-    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on damaged vehicles sample data"]
+    info: ["- Microsoft Power BI", "- Diploma in I.T Course (Belgium Campus)", "- Report on damaged vehicles sample data"]
 },
 {
     name: "'Global Financial Data' Report",
@@ -153,7 +153,7 @@ const Projects = [
     imageAlt: "Power BI report 1",
     link: "https://app.powerbi.com/view?r=eyJrIjoiYmY3MzRhNWYtOWZiMy00NTNkLTgyYmQtNDc2NGVlMDBhNWQ0IiwidCI6ImVhMWE5MDliLTY2MDAtNGEyNS04MmE1LTBjNmVkN2QwNTEzYiIsImMiOjl9",
     category: "Database",
-    info: ["Microsoft Power BI", "Diploma in I.T Course (Belgium Campus)", "Report on global financial sample data"]
+    info: ["- Microsoft Power BI", "- Diploma in I.T Course (Belgium Campus)", "- Report on global financial sample data"]
 },
 {
     name: "KPI Calculator",
@@ -162,7 +162,7 @@ const Projects = [
     imageAlt: "Calculator",
     link: "https://github.com/ShiiFt38/KAIZEN-Business-Calculator",
     category: "Miscellaneous",
-    info: ["C# | .NET Framework", "Personal Project", "Calculator desktop application"]
+    info: ["- C# | .NET Framework", "- Personal Project", "- Calculator desktop application"]
 },
 {
     name: "Student Management System",
@@ -171,7 +171,7 @@ const Projects = [
     imageAlt: "Management system",
     link: "https://github.com/ShiiFt38/Student-Management-System-C-",
     category: "Miscellaneous",
-    info: ["C# | .NET Framework | SQL | MS SQL Server", "Diploma in I.T Course (Belgium Campus)", "Worked with 2 team members","Implemented functional user login and signup system", "Incorporated CRUD functions", "Designed and developed database for the system"]
+    info: ["- C# | .NET Framework | SQL | MS SQL Server", "- Diploma in I.T Course (Belgium Campus)", "- Worked with 2 team members","- Implemented functional user login and signup system", "- Incorporated CRUD functions", "- Designed and developed database for the system"]
 
 }
 
